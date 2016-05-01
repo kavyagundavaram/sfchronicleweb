@@ -1,0 +1,46 @@
+/*#home {
+  background-image: url('../img/sf.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100vh;
+}*/
+
+.navbar-default {
+  /*background-color: #F25F5C;*/
+  background: rgba(0,0,0,0.5);
+}
+
+.btn-outline {
+  margin: 10px;
+}
+
+section  {
+  min-height: 100vh;
+  padding-top: 200px;
+}
+
+header {
+  height: 100vh;
+  background: none;
+}
+
+video {
+  position: absolute;;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: url('../img/sf.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+
+#home .intro-text {
+  font-weight: 300;
+  padding-top: 20%;
+}
