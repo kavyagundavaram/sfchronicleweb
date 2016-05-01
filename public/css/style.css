@@ -44,3 +44,10 @@ video {
   font-weight: 300;
   padding-top: 20%;
 }
+
+
+#portfolio .portfolio-item {
+  max-height: 250px;
+  overflow: hidden;
+  padding: 30px;
+}
