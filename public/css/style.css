@@ -51,3 +51,11 @@ video {
   overflow: hidden;
   padding: 30px;
 }
+
+.btn-social-button {
+  background: #3b5998;
+}
+
+.btn-social-button:hover {
+  color: #333333;
+}
