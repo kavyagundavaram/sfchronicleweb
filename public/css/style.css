@@ -59,3 +59,12 @@ video {
 .btn-social-button:hover {
   color: #333333;
 }
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #333333;
+}
